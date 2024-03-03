@@ -4,3 +4,22 @@ version: 1.0.0
 codeOwners:
   - '0x91455C9671a625F7256D709AbEDC5Ae4C874B528'
 quorum: 1
+CryptoProject/
+├── README.md
+├── src/
+│   ├── crypto/
+│   │   ├── encryption.py
+│   │   ├── hashing.py
+│   ├── blockchain/
+│   │   ├── block.py
+│   │   ├── blockchain.py
+│   ├── wallet/
+│   │   ├── wallet.py
+├── tests/
+│   ├── test_encryption.py
+│   ├── test_hashing.py
+│   ├── test_blockchain.py
+│   ├── test_wallet.py
+├── requirements.txt
+├── LICENSE
+├── .gitignore
